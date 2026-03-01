@@ -9,7 +9,7 @@ let goods = [
         name: 'Ноутбук', 
         cost: 75000, 
         category: 'Электроника', 
-        description: 'Мощный игровой ноутбук с RTX 3060, 16GB RAM, 512GB SSD', 
+        description: 'Описание ноутбука', 
         stock: 5, 
         rating: 4.8,
         imageUrl: '/images/laptop.jpg'
@@ -19,7 +19,7 @@ let goods = [
         name: 'Наушники', 
         cost: 5000, 
         category: 'Аксессуары', 
-        description: 'Беспроводные наушники с шумоподавлением, 30ч работы', 
+        description: 'Описание наушников', 
         stock: 15,
         rating: 4.5,
         imageUrl: '/images/headphones.jpg'
@@ -29,7 +29,7 @@ let goods = [
         name: 'Клавиатура', 
         cost: 3000, 
         category: 'Аксессуары', 
-        description: 'Механическая клавиатура с RGB подсветкой, красные свитчи', 
+        description: 'Описание клавиатуры', 
         stock: 8,
         rating: 4.6,
         imageUrl: '/images/keyboard.jpg'
@@ -39,7 +39,7 @@ let goods = [
         name: 'Монитор', 
         cost: 25000, 
         category: 'Электроника', 
-        description: '4K монитор 27 дюймов, IPS матрица, HDR', 
+        description: 'Описание монитора', 
         stock: 3,
         rating: 4.9,
         imageUrl: '/images/monitor.jpg'
@@ -49,7 +49,7 @@ let goods = [
         name: 'Мышь', 
         cost: 1500, 
         category: 'Аксессуары', 
-        description: 'Игровая мышь с 6 кнопками, 16000 DPI', 
+        description: 'Описание компьютерной мыши', 
         stock: 12,
         rating: 4.3,
         imageUrl: '/images/mouse.jpg'
@@ -59,7 +59,7 @@ let goods = [
         name: 'Смартфон', 
         cost: 45000, 
         category: 'Электроника', 
-        description: 'Флагманский смартфон, 128GB, тройная камера', 
+        description: 'Описание смартфона', 
         stock: 4,
         rating: 4.7,
         imageUrl: '/images/smartphone.jpg'
@@ -69,7 +69,7 @@ let goods = [
         name: 'Планшет', 
         cost: 35000, 
         category: 'Электроника', 
-        description: 'Для работы и учебы, поддержка стилуса', 
+        description: 'Описание планшета', 
         stock: 6,
         rating: 4.4,
         imageUrl: '/images/tablet.jpg'
@@ -79,17 +79,17 @@ let goods = [
         name: 'Чехол', 
         cost: 1000, 
         category: 'Аксессуары', 
-        description: 'Силиконовый чехол для смартфона', 
+        description: 'Описание чехла для смартфона', 
         stock: 20,
         rating: 4.2,
-        imageUrl: '/images/case.jpg'
+        imageUrl: '/images/phonecase.jpg'
     },
     {
         id: 9, 
         name: 'Зарядка', 
         cost: 2000, 
         category: 'Аксессуары', 
-        description: 'Быстрая зарядка 65W, 2 порта', 
+        description: 'Описание зарядки', 
         stock: 10,
         rating: 4.5,
         imageUrl: '/images/charger.jpg'
@@ -99,7 +99,7 @@ let goods = [
         name: 'Колонка', 
         cost: 4000, 
         category: 'Аудио', 
-        description: 'Портативная колонка, влагозащита, 20ч музыки', 
+        description: 'Описание колонки', 
         stock: 7,
         rating: 4.6,
         imageUrl: '/images/speaker.jpg'
