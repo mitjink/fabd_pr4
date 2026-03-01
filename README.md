@@ -8,3 +8,13 @@
 
 3. Редактирование товара  
 ![Редактирование товара](screenshots/3.png)
+
+# Запуск
+## Backend
+cd backend  
+node app.js
+
+## Фронтенд
+cd frontend  
+npm install  
+npm start
